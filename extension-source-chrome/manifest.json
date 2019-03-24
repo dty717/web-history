@@ -6,7 +6,7 @@
   "manifest_version": 2,
   "content_scripts": [{
     "css": ["styles/styles.css"],
-    "js": ["scripts/jquery.min.js","scripts/qrcode.js","scripts/sockjs.min.js","scripts/stomp.js","scripts/content.js"],
+    "js": ["scripts/jquery.min.js","scripts/content.js"],
     "matches": ["*://*/*"]
   }],
   "page_action": {
