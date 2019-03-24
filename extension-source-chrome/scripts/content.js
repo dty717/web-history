@@ -39,11 +39,11 @@ function getLocalIPs(callback) {
 ready(function () {
     // Example (using the function below).
     getLocalIPs(function(ips) { // <!-- ips is an array of local IP addresses.
-        var url="http://127.0.0.1:8080/web/history";
+        var url="https://127.0.0.1:8443/web/history";
         var pc="Laptop"
         for(var i=0;i<ips.length;i++){
             if(ips[i]=="192.168.2.100"){
-                url="http://192.168.2.101:8080/web/history"
+                url="https://192.168.2.101:8443/web/history"
                 pc="Desktop";
                 break;
             }
