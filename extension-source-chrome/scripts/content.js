@@ -51,7 +51,7 @@ ready(function () {
         $.ajax({
             url: url,
             type: 'POST',
-            data: {href:window.location.href,pc:pc},
+            data: {href:window.location.href,pc:pc,title:document.title},
             cache: false,
             success: function (response) {
                 console.log(response);
